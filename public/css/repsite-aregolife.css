@@ -1,0 +1,56 @@
+.repsite .repsite-photo img {
+    float: left;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px 0;
+    margin-right: 20px;
+}
+
+.repsite {
+    position: inherit;
+}
+
+.repsite-info {
+    margin-top: 15px;
+
+}
+
+#repsite-header .repsite-info {
+    position: absolute;
+}
+
+.repsite-guest-of,
+.repsite-contact-info {
+    margin-left: 10px;
+}
+
+.repsite-phone {
+    white-space: nowrap;
+    padding-right: 1em;
+}
+
+.repsite-phone:empty {
+    display: none;
+}
+
+.repsite-email {
+    white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+    .repsite-info {
+        margin-top: 9px;
+    }
+
+    .repsite-contact-info {
+        display: block;
+        padding-top: 3px;
+    }
+}
+
+@media (max-width: 420px) {
+    .repsite-guestOf {
+        display: none;
+    }
+}
